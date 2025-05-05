@@ -27,6 +27,5 @@ This repo is under active development. Some things might be broken, outdated, or
 
 Not really expecting contributions, but if you’re vibing with any part of this and want to fork/PR/tweak, go for it. Just keep it chill and constructive.
 
-## 📬 Contact
 
-Wanna collab or ask something? Open an issue or reach out via [LinkedIn](#) or [email](mailto:you@example.com).
+
