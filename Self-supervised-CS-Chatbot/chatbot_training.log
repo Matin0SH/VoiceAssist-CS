@@ -1,0 +1,59 @@
+2025-05-08 18:15:59,333 - __main__ - INFO - Set random seed to 42
+2025-05-08 18:15:59,333 - __main__ - INFO - Loading base model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:15:59,334 - __main__ - INFO - Loading model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:15:59,334 - __main__ - INFO - Using 4-bit quantization
+2025-05-08 18:15:59,335 - __main__ - ERROR - Error during training or evaluation: No package metadata was found for bitsandbytes
+2025-05-08 18:17:40,536 - __main__ - INFO - Set random seed to 42
+2025-05-08 18:17:40,537 - __main__ - INFO - Loading base model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:17:40,539 - __main__ - INFO - Loading model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:17:40,539 - __main__ - INFO - Using 4-bit quantization
+2025-05-08 18:17:40,540 - __main__ - ERROR - Error during training or evaluation: No package metadata was found for bitsandbytes
+2025-05-08 18:18:08,135 - __main__ - INFO - Set random seed to 42
+2025-05-08 18:18:08,135 - __main__ - INFO - Loading base model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:18:08,136 - __main__ - INFO - Loading model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:18:08,136 - __main__ - INFO - Using full precision
+2025-05-08 18:18:08,136 - __main__ - INFO - Loading tokenizer...
+2025-05-08 18:18:08,409 - __main__ - INFO - Loading model...
+2025-05-08 18:18:09,707 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2025-05-08 18:18:09,709 - __main__ - INFO - Model loaded in 1.57 seconds
+2025-05-08 18:18:09,709 - __main__ - INFO - Setting up LoRA for parameter-efficient fine-tuning...
+2025-05-08 18:18:09,709 - __main__ - INFO - Setting up LoRA for fine-tuning
+2025-05-08 18:18:09,710 - __main__ - INFO - LoRA config: r=16, alpha=32, dropout=0.05
+2025-05-08 18:18:09,710 - __main__ - INFO - Target modules: ['q_proj', 'k_proj', 'v_proj', 'o_proj', 'gate_proj', 'up_proj', 'down_proj']
+2025-05-08 18:18:10,324 - __main__ - INFO - Training model on instruction data...
+2025-05-08 18:18:10,325 - __main__ - INFO - Logs will be saved to ./fine_tuned_model\logs_20250508-181810
+2025-05-08 18:18:10,326 - __main__ - INFO - Creating datasets from ./processed_data\instruction\train.json and ./processed_data\instruction\validation.json
+2025-05-08 18:18:10,327 - __main__ - INFO - Loading dataset from ./processed_data\instruction\train.json
+2025-05-08 18:18:10,412 - __main__ - INFO - Loaded 57216 examples
+2025-05-08 18:18:10,413 - __main__ - INFO - Loading dataset from ./processed_data\instruction\validation.json
+2025-05-08 18:18:10,429 - __main__ - INFO - Loaded 7152 examples
+2025-05-08 18:18:10,429 - __main__ - INFO - Train dataset size: 57216
+2025-05-08 18:18:10,429 - __main__ - INFO - Validation dataset size: 7152
+2025-05-08 18:18:10,430 - __main__ - INFO - Training steps per epoch: 3576
+2025-05-08 18:18:10,430 - __main__ - INFO - Total training steps: 10728
+2025-05-08 18:18:10,430 - __main__ - ERROR - Error during training or evaluation: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2025-05-08 18:19:28,352 - __main__ - INFO - Set random seed to 42
+2025-05-08 18:19:28,352 - __main__ - INFO - Loading base model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:19:28,352 - __main__ - INFO - Loading model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2025-05-08 18:19:28,352 - __main__ - INFO - Loading tokenizer...
+2025-05-08 18:19:28,557 - __main__ - INFO - Loading model...
+2025-05-08 18:19:28,557 - __main__ - INFO - Using device: cpu
+2025-05-08 18:19:33,643 - __main__ - INFO - Using float32 precision on CPU
+2025-05-08 18:19:33,646 - __main__ - INFO - Model loaded in 5.29 seconds
+2025-05-08 18:19:33,646 - __main__ - INFO - Setting up LoRA for parameter-efficient fine-tuning...
+2025-05-08 18:19:33,646 - __main__ - INFO - Setting up LoRA for fine-tuning
+2025-05-08 18:19:33,648 - __main__ - INFO - LoRA config: r=8, alpha=16, dropout=0.05
+2025-05-08 18:19:33,649 - __main__ - INFO - Target modules: ['q_proj', 'v_proj']
+2025-05-08 18:19:33,820 - __main__ - INFO - Training model on instruction data...
+2025-05-08 18:19:33,823 - __main__ - INFO - Logs will be saved to ./fine_tuned_model\logs_20250508-181933
+2025-05-08 18:19:33,823 - __main__ - INFO - Creating datasets from ./processed_data\instruction\train.json and ./processed_data\instruction\validation.json
+2025-05-08 18:19:33,823 - __main__ - INFO - Loading dataset from ./processed_data\instruction\train.json
+2025-05-08 18:19:33,928 - __main__ - INFO - Loaded 57216 examples
+2025-05-08 18:19:33,929 - __main__ - INFO - Loading dataset from ./processed_data\instruction\validation.json
+2025-05-08 18:19:33,941 - __main__ - INFO - Loaded 7152 examples
+2025-05-08 18:19:33,941 - __main__ - INFO - Train dataset size: 57216
+2025-05-08 18:19:33,941 - __main__ - INFO - Validation dataset size: 7152
+2025-05-08 18:19:33,942 - __main__ - WARNING - Running on CPU, reduced batch size to 1
+2025-05-08 18:19:33,942 - __main__ - INFO - Training steps per epoch: 7152
+2025-05-08 18:19:33,942 - __main__ - INFO - Total training steps: 21456
+2025-05-08 18:19:33,943 - __main__ - ERROR - Error during training: TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

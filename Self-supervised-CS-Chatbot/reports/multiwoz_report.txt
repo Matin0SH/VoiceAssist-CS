@@ -1,0 +1,76 @@
+MULTIWOZ DATASET REPORT
+======================
+
+BASIC STATISTICS
+--------------
+Number of dialogues: 10438
+Average turns per dialogue: 13.70
+Min turns: 2
+Max turns: 44
+
+UTTERANCE STATISTICS
+------------------
+User utterances - Average length: 13.53 words
+User utterances - Min length: 1 words
+User utterances - Max length: 42 words
+System utterances - Average length: 17.30 words
+System utterances - Min length: 1 words
+System utterances - Max length: 77 words
+
+DOMAIN DISTRIBUTION
+------------------
+unknown: 10438 dialogues
+
+SAMPLE CONVERSATIONS
+-------------------
+
+Conversation 1 (ID: MUL1112.json, Domain: unknown):
+USER: I am looking for a boat in town.
+SYSTEM: OK. There are four different boats to choose from.  What area of town were you thinking?
+USER: It doesn't really matter. Can you recommend one?
+SYSTEM: Camboats is in the east of town and I'd recommend them
+USER: Sounds good.  What is their postcode number as well as their phone number?
+SYSTEM: I can provide that for you. The Camboats postcode is cb58sx. To reach them, their phone number is 01223902112. Did you need any other information?
+USER: Can you look up information for a hotel called Acorn Guest House?
+SYSTEM: The Acorn Guest House is priced moderately, in the north area of town, has internet, parking, located at 154 Chesterton Road, phone 01223353888. Postal code is cb41da. Does that help?
+USER: That sounds perfect. Would you please book a room for two starting on Thursday?
+SYSTEM: Sure, how many nights would you like?
+USER: Actually, lets not book a room yet. Can you tell me if they have internet? Also the address and the area of town it is located in.
+SYSTEM: Yes, of course.  The Acorn Guesthouse is in the north part of town and can be found at 154 Chesterton road.  They offer free internet.  
+USER: Wonderful, thank you. I think that's all I need. 
+SYSTEM: Sounds like a plan. Would you like me to book it now?
+USER: No thank you.  I think that I am good for now.
+SYSTEM: Is there anything else that I can do for you?
+USER: No, that is all for now. Thank you! 
+SYSTEM: OK, have a nice day.  Good bye.
+
+
+Conversation 2 (ID: WOZ20581.json, Domain: unknown):
+USER: Hello, I am looking for a restaurant in the centre of town that serves Brazilian food. 
+SYSTEM: There are no restaurants matching your request.
+USER: Can you look for asian oriental food?
+SYSTEM: Dojo Noodle Bar is an Asian Oriental restaurant in the centre of town.
+USER: What is the phone number?
+SYSTEM: The phone number for Dojo Noodle Bar is 01223 363471. Can I help you with anything else?
+USER: no thank you good bye
+SYSTEM: Thank you for using this system and please call again. Goodbye.
+
+
+Conversation 3 (ID: MUL2173.json, Domain: unknown):
+USER: I am looking for a place to stay in the moderate price range that includes free parking.
+SYSTEM: In which area would you prefer?
+USER: Cambridge. It needs to have free parking and moderately priced.
+SYSTEM: Acorn guest house is a guesthouse in the north area with free parking and internet. Would you like to make a reservation?
+USER: No, thanks, I'm just exploring options right now. It sounds like this Acorn place should go at the top of my list.
+SYSTEM: Fine.  Is there anything else I can help with today?
+USER: What's the star rating, and phone number for the acorn?
+SYSTEM: It has 4 star rating and the phone number is 01223353888.
+USER: Great.  I'm going to also need a train to take me to Cambridge.  Need it to leave after 19:00
+SYSTEM: I have many trains going to cambridge.  Can you tell me where you are departing from?  Also, how many tickets will you need?
+USER: It is just for me and I need it for Saturday leaving after 19:00 from Ely and going to Cambridge.
+SYSTEM: There are three trains available. The earliest leaves at 19:35. Would that work for you?
+USER: Yes, that one sounds like it will work. Can you tell me the train ID and the total travel time? 
+SYSTEM: Okay, it's train TR4288 and the duration is 17 minutes. Can I help you with something else?
+USER: Thanks.  I'm all set for today.  You have been very helpful!
+SYSTEM: You are welcome and goodbye.
+
